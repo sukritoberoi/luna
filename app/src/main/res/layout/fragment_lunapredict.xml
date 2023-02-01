@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lunapredict">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Length of menstruation cycle predictor"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="cycle_number"
+            android:id="@+id/cycle_number"
+            android:layout_marginTop="20dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:hint="number_of_peak"
+            android:id="@+id/number_of_peak"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:id="@+id/Age"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:hint="Length_of_cycle"
+            android:id="@+id/Length_of_cycle"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="Estimated_day_of_ovulution"
+            android:id="@+id/Estimated_day_of_ovulution"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="Length_of_Leutal_Phase"
+            android:id="@+id/Length_of_Leutal_Phase"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="Length_of_menses"
+            android:id="@+id/Length_of_menses"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="Weight"
+            android:id="@+id/Weight"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="BMI"
+            android:id="@+id/BMI"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:hint="Mean_of_length_of_cycle"
+            android:textColorHint="@color/white"
+            android:id="@+id/Mean_of_length_of_cycle"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="Menses_score"
+            android:id="@+id/Menses_score"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/predict"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#049EEF"
+            android:text="Predict">
+
+        </Button>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

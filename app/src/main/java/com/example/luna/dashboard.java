@@ -16,23 +16,23 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
 public class dashboard extends AppCompatActivity {
-    ImageButton imageButton;
+    //ImageButton imageButton;
     BottomNavigationView bottomNavigationView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dashboard);
-        setupHyperlink();
-        addListenerOnButton();
+        //setupHyperlink();
+        //addListenerOnButton();
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setOnNavigationItemSelectedListener(selectedListener);
         bottomNavigationView.setSelectedItemId(R.id.home);
     }
 
-    private void setupHyperlink() {
-        TextView linkTextView = findViewById(R.id.textview1);
-        linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
-    }
+    //private void setupHyperlink() {
+    //    TextView linkTextView = findViewById(R.id.textview1);
+    //    linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
+    //}
     FirstFragment firstFragment = new FirstFragment();
     SecondFragment secondFragment = new SecondFragment();
     FourthFragment fourthFragment = new FourthFragment();
@@ -42,24 +42,24 @@ public class dashboard extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-            /*switch (item.getItemId()) {
+            switch (item.getItemId()) {
                 case R.id.home:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, firstFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_view_tag, firstFragment).commit();
                     return true;
                 case R.id.search:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, secondFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_view_tag, secondFragment).commit();
                     return true;
                 case R.id.messages:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, fourthFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_view_tag, fourthFragment).commit();
                     return true;
                 case R.id.profile:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, fifthFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_view_tag, fifthFragment).commit();
                     return true;
-            }*/
+            }
             return false;
         }
     };
-    public void addListenerOnButton() {
+    /*public void addListenerOnButton() {
 
         final Context context = this;
 
@@ -77,5 +77,5 @@ public class dashboard extends AppCompatActivity {
 
         });
 
-    }
+    }*/
 }

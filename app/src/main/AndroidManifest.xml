@@ -25,10 +25,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:label="@string/app_name"
-            android:name=".signup" >
-        </activity>
+
         <activity android:name=".login"
             android:exported="true">
             <intent-filter>
@@ -49,12 +46,12 @@
 
         <activity
             android:label="@string/app_name"
-            android:name=".dashboard">
+            android:name=".signup">
         </activity>
 
         <activity
             android:label="@string/app_name"
-            android:name=".lunaml">
+            android:name=".dashboard">
         </activity>
 
         <meta-data

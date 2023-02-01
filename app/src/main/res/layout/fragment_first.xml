@@ -77,7 +77,7 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:layout_marginLeft="4dp"
+                    android:layout_marginLeft="6dp"
                     android:src="@drawable/periodpain"/>
 
                 <TextView
@@ -172,7 +172,7 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:layout_marginLeft="4dp"
+                    android:layout_marginLeft="6dp"
                     android:src="@drawable/underwear" />
 
                 <TextView

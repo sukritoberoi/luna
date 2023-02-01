@@ -156,6 +156,7 @@
         android:background="#049EEF"
         android:fontFamily="@font/akaya_telivigala"
         android:text="Of Course you do :)"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
