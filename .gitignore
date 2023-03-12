@@ -1,3 +1,6 @@
+__pycache__
+luna
+
 *.iml
 .gradle
 /local.properties
